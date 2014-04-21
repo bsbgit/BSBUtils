@@ -15,8 +15,6 @@ public class AgeValidator {
 		final int US_DRINKING_AGE = 21;
 		final int UK_DRINKING_AGE = 18;
 		
-		// boolean leapyr = false;
-		
 		int year = calendar.get(Calendar.YEAR); 
 		int dobyr = dob.get(Calendar.YEAR);
 		int month = calendar.get(Calendar.MONTH); // Jan = 0, dec = 11
@@ -26,7 +24,6 @@ public class AgeValidator {
 	
 		if (dobmonth == 1 && dobday == 29){
 			System.out.println("Holy Shit! It's a Leap Year!!");
-			// leapyr = true;
 		}
 		
 		if (cc == "US") {
