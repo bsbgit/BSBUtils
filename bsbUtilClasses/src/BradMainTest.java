@@ -15,7 +15,7 @@ public class BradMainTest {
 		date.set(1993, 3, 19);
 		
 		String cc = "US";
-		String name = "Nigel";
+		String name = "Jesse Canino";
 		
 		AgeValidator.ageValidator(date, cc, name);
 	}
