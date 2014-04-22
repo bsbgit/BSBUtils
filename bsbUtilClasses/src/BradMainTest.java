@@ -14,7 +14,7 @@ public class BradMainTest {
 		Calendar date = new GregorianCalendar();		
 		date.set(1993, 3, 19);
 		
-		String cc = "US";
+		String cc = "UK";
 		String name = "Brad Bouchard";
 		
 		AgeValidator.ageValidator(date, cc, name);
