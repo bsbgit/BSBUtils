@@ -12,10 +12,10 @@ public class BradMainTest {
 	public static void main(String[] args) {
 		
 		Calendar date = new GregorianCalendar();		
-		date.set(1993, 3, 19);
+		date.set(1981, 4, 28);
 		
-		String cc = "UK";
-		String name = "Bradley Bouchard";
+		String cc = "US";
+		String name = "Bradley S Bouchard";
 		
 		AgeValidator.ageValidator(date, cc, name);
 	}
